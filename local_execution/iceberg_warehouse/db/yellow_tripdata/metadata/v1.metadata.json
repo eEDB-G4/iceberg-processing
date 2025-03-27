@@ -1,0 +1,236 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "7187d2af-e5bd-4266-b672-43369ed691b6",
+  "location" : "file:///home/alves/Projetos/eEDB-015/iceberg_warehouse/db/yellow_tripdata",
+  "last-updated-ms" : 1743034975498,
+  "last-column-id" : 17,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "VendorID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "passenger_count",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "trip_distance",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 4,
+      "name" : "RatecodeID",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 5,
+      "name" : "store_and_fwd_flag",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "PULocationID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "DOLocationID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "payment_type",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 9,
+      "name" : "fare_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 10,
+      "name" : "extra",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 11,
+      "name" : "mta_tax",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "tip_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 13,
+      "name" : "tolls_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 14,
+      "name" : "improvement_surcharge",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 15,
+      "name" : "total_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 16,
+      "name" : "congestion_surcharge",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 17,
+      "name" : "Airport_fee",
+      "required" : false,
+      "type" : "double"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "VendorID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "passenger_count",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "trip_distance",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 4,
+      "name" : "RatecodeID",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 5,
+      "name" : "store_and_fwd_flag",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "PULocationID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "DOLocationID",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "payment_type",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 9,
+      "name" : "fare_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 10,
+      "name" : "extra",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 11,
+      "name" : "mta_tax",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "tip_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 13,
+      "name" : "tolls_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 14,
+      "name" : "improvement_surcharge",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 15,
+      "name" : "total_amount",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 16,
+      "name" : "congestion_surcharge",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 17,
+      "name" : "Airport_fee",
+      "required" : false,
+      "type" : "double"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "alves"
+  },
+  "current-snapshot-id" : 2353901498984162486,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 2353901498984162486,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 2353901498984162486,
+    "timestamp-ms" : 1743034975498,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1743034777150",
+      "added-data-files" : "3",
+      "added-records" : "2964624",
+      "added-files-size" : "23985859",
+      "changed-partition-count" : "1",
+      "total-records" : "2964624",
+      "total-files-size" : "23985859",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "file:/home/alves/Projetos/eEDB-015/iceberg_warehouse/db/yellow_tripdata/metadata/snap-2353901498984162486-1-4fb124a8-3f75-4eda-81bb-35b94f5763a7.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1743034975498,
+    "snapshot-id" : 2353901498984162486
+  } ],
+  "metadata-log" : [ ]
+}
